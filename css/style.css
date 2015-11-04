@@ -74,3 +74,77 @@ html, body {
   letter-spacing: 1.2px;
   font-size: 1.5em;
 }
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .overlay ul {
+    top: 6.5%;
+  }
+}
+
+/* iPhone6+ (landscape) ----------- */
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio : 3) {
+  .overlay ul {
+    top: 14%;
+  }
+}
+/* iPhone6+ (portrait) ----------- */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+  .element {
+    font-size: 2em;
+  }
+  .overlay li {
+    padding-bottom: 28px;
+  }
+  .overlay ul {
+    top: 9%;
+    left: 20%;
+    font-size: 2em;
+  }
+}
+/* iPhone6 (landscape) ----------- */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+  .overlay ul {
+      top: 15.5%;
+    }
+}
+
+/* iPhone6 (portrait) ----------- */s
+@media only screen
+and (min-device-width : 375px)
+and (max-device-height : 667px)
+and (orientation : portrait) {
+  .element {
+    font-size: 2em;
+  }
+  .overlay li {
+    padding-bottom: 28px;
+  }
+  .overlay ul {
+    top: 9%;
+    left: 20%;
+    font-size: 2em;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+.overlay li {
+  padding-bottom: 20px;
+  }
+}
+
