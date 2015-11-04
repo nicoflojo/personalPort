@@ -1,7 +1,8 @@
 $(function(){
       $(".element").typed({
-          strings: [ "Hi, I'm Nico. <br> ^1000 I Design and Develop Web Applications. <br> ^1000 If you are inquiring about freelance work <br> ^1000 or interested in hiring me full-time. <br> ^1000 Send me an email at nicoflojo.developer@gmail.com"],
-          typeSpeed: 2,
+          strings: [ "Hi, I'm Nico. <br> I design and develop web applications. <br> Some of my clients include: <br> ^1000 Dare, <br> ^1000 SAP, <br> ^1000 and Corvere Ads.",
+           "If you are inquiring about freelance work <br> or interested in hiring me full-time. <br> Shoot me good ole' fashioned email. <br> Thanks."],
+          typeSpeed: 10,
           startDelay: 8800,
           showCursor: false
       });

@@ -28,7 +28,7 @@
     volume: 1,
     playbackRate: 1,
     muted: true,
-    loop: true,
+    loop: false,
     autoplay: true,
     position: '50% 50%',
     posterType: 'detect',

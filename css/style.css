@@ -24,6 +24,11 @@ html, body {
   width: 50%;
   /* font styling */
   font-family: 'Inconsolata';
-  letter-spacing: 1.6px;
-  line-height: 120%
+  letter-spacing: 1.3px;
+  line-height: 140%;
+  font-size: 1.2em;
+}
+
+.email {
+  display: inline-block;
 }
