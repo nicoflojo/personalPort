@@ -49,7 +49,7 @@ html, body {
   color: #000;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 10px 0 0 0;
   position: absolute;
   width: 500px;
   max-width: 100%;
@@ -139,12 +139,3 @@ and (orientation : portrait) {
     font-size: 2em;
   }
 }
-
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
-.overlay li {
-  padding-bottom: 20px;
-  }
-}
-
